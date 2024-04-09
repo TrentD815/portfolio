@@ -34,7 +34,7 @@ const AppFooter = styled.div`
 const Icons = styled.a`
   padding: 8px;
   margin-right: 16px;
-  color: ${({theme}) => theme.color.text};
+  //color: ${({theme}) => theme.color.text};
   opacity: 0.5;
   transform: translateY(0px);
   transition: 0.3s all ease-out;

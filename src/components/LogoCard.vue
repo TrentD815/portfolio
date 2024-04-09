@@ -37,7 +37,6 @@ const Card = styled.div`
   /* Disabled for performance issues */
   /* backdrop-filter: blur(10px); */
 
-  display: block;
   transform: translateY(0px);
   transition: 0.3s transform ease-out, 0.3s filter ease-out;
 
@@ -49,8 +48,8 @@ const Card = styled.div`
 
 const Logo = styled.img`
   height: 100%;
-  mix-blend-mode: exclusion;
-  filter: invert(1);
+  //mix-blend-mode: exclusion;
+  //filter: invert(1);
 `
 
 export default {

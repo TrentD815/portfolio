@@ -10,9 +10,12 @@ export default {
       {
         name: "Head To Head",
         medium: "Angular · Express · NodeJS · MongoDB",
-        summary: "A simple interface to compare stats of active NBA players. A simple interface to compare stats of active NBA players. A simple interface to compare stats of active NBA players.",
+        summary: "A simple interface to compare stats of active NBA players",
         copy: [
-          ""
+          "Search stats for all 575+ active NBA players.\n" +
+          "View side by side stat lines between any 2 players.\n" +
+          "View stats based on the current season (Regular/Playoffs).\n" +
+          "Mobile friendly with light and dark themes."
         ],
         links: {
           color: "#363636",
@@ -30,9 +33,11 @@ export default {
       {
         name: "Foosball Metrics",
         medium: "Angular · Express · NodeJS · MongoDB",
-        summary: "A clean UI to log foosball matches and track stats",
+        summary: "A seamless UI to enter foosball matches and track stats",
+
         copy: [
-          ""
+          "Log foosball matches including score, date, players, and team names. " +
+          "View the history of previously logged matches as well as a leaderboard with fun stats and milestones.",
         ],
         links: {
           color: "#363636",
@@ -50,9 +55,10 @@ export default {
       {
         name: "Server Spy",
         medium: "React · Express · NodeJS · MongoDB",
-        summary: "Easily check which servers are up and running. A simple interface to check if a predefined group of servers is live",
+        summary: "An interface to check if a group of servers is live",
         copy: [
-         ""
+         "Table view showing the current status of all the servers with sorting capability.\n" +
+         "Ping the health endpoint of one or all of the servers in real time to get live updates.\n"
         ],
         links: {
           color: "#363636",
@@ -71,7 +77,7 @@ export default {
     minor: [
       {
         name: "Escape Room Extension",
-        description: "The very portfolio page you're viewing right now",
+        description: "A chrome extension to help escape room employees run rooms more precisely and effectively",
         link: {
           name: "Github",
           url: "https://github.com/TrentD815/EscapeRoomExtension"
@@ -79,9 +85,9 @@ export default {
       },
       {
         name: "Game & Hobby Corner",
-        description: "Some accolades and stats from games I enjoy as well other miscellaneous ",
+        description: "Some accolades and stats from games I enjoy as well other miscellaneous hobby stuff",
         link: {
-          name: "Github",
+          name: "View",
           url: "https://trent.gg"
         }
       }
@@ -89,7 +95,6 @@ export default {
   },
   logoSection: {
     title: "As hired by",
-    // Only supports 0-3 at the moment
     logos: [
       {
         src: "/logos/CSolsInc.png",

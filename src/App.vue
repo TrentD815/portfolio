@@ -1,5 +1,6 @@
 <template>
   <theme-provider :theme="theme">
+    <light-toggle v-on:click="toggleTheme()"><span v-if="!isDark" >💡</span><span v-if="isDark">💡</span></light-toggle>
     <hero
       v-bind:author="author"
       v-bind:subtitle="hero.subtitle"
@@ -37,7 +38,7 @@
       </logo-section-container>
     </card-container>
     <foot v-bind:author="author" v-bind:footer="footer" />
-    <light-toggle v-on:click="toggleTheme()"><span v-if="!isDark" >💡</span><span v-if="isDark">💡</span></light-toggle>
+
   </theme-provider>
 </template>
 
@@ -238,11 +239,10 @@ const LightToggle = styled.button`
   background: transparent;
   position: sticky;
   float: right;
-  bottom: 20px;
   right: 20px;
-  margin-top: -40px;
+  margin-top: 20px;
   padding: 5px;
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
   transform: translateY(0px);
   transition: 0.3s transform ease-out;

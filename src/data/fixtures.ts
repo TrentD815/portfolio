@@ -1,7 +1,7 @@
 export default {
   author: "Trent Davis",
   hero: {
-    subtitle: "Software Engineer at Neev Data.",
+    subtitle: "Software Engineer at Neev Data",
     description: ["Engineering robust software by day.", "Researching the latest memes by night."],
     cta: "Browse Projects",
   },
@@ -13,8 +13,7 @@ export default {
         summary: "A simple interface to compare stats of active NBA players",
         copy: [
           "Search stats for all 575+ active NBA players.\n" +
-          "View side by side stat lines between any 2 players.\n" +
-          "View stats based on the current season.\n" +
+          "View side by side stat lines between any 2 players for the current season.\n" +
           "Mobile friendly with light and dark themes."
         ],
         links: {
@@ -84,7 +83,7 @@ export default {
         name: "Game & Hobby Corner",
         description: "Some accolades and stats from games I enjoy as well as other miscellaneous hobby stuff",
         link: {
-          name: "View",
+          name: "Coming Soon!",
           url: "https://trent.gg"
         }
       }

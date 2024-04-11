@@ -4,7 +4,7 @@
       <subtitle>{{footer.tagline}}</subtitle>
     </div>
     <icon-container>
-      <icons v-for="(link, index) in footer.links" :key="`product-desctiption-${index}`" v-bind:href="link.url" target="_blank"><i v-bind:class="link.fa"></i></icons>
+      <icons v-for="(link, index) in footer.links" :key="`product-description-${index}`" v-bind:href="link.url" target="_blank"><i v-bind:class="link.fa"></i></icons>
     </icon-container>
   </app-footer>
 </template>

@@ -14,7 +14,7 @@ export default {
         copy: [
           "Search stats for all 575+ active NBA players.\n" +
           "View side by side stat lines between any 2 players.\n" +
-          "View stats based on the current season (Regular/Playoffs).\n" +
+          "View stats based on the current season.\n" +
           "Mobile friendly with light and dark themes."
         ],
         links: {
@@ -47,9 +47,8 @@ export default {
           }
         },
         images: [
-          "/head-to-head/0.png",
-          "/head-to-head/1.png",
-          "/head-to-head/2.png"
+          "/foosball-metrics/0.png",
+          "/foosball-metrics/1.png"
         ]
       },
       {
@@ -68,16 +67,14 @@ export default {
           }
         },
         images: [
-          "/head-to-head/0.png",
-          "/head-to-head/1.png",
-          "/head-to-head/2.png"
+          "/server-spy/0.png"
         ]
       }
     ],
     minor: [
       {
         name: "Escape Room Extension",
-        description: "A chrome extension to help escape room employees run rooms more precisely and effectively",
+        description: "A chrome extension to help escape room employees run rooms more effectively",
         link: {
           name: "Github",
           url: "https://github.com/TrentD815/EscapeRoomExtension"
@@ -85,7 +82,7 @@ export default {
       },
       {
         name: "Game & Hobby Corner",
-        description: "Some accolades and stats from games I enjoy as well other miscellaneous hobby stuff",
+        description: "Some accolades and stats from games I enjoy as well as other miscellaneous hobby stuff",
         link: {
           name: "View",
           url: "https://trent.gg"

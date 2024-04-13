@@ -47,7 +47,9 @@ export default {
         },
         images: [
           "/foosball-metrics/0.png",
-          "/foosball-metrics/1.png"
+          "/foosball-metrics/1.png",
+          "/foosball-metrics/2.png",
+          "/foosball-metrics/3.png"
         ]
       },
       {

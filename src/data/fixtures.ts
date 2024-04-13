@@ -62,7 +62,7 @@ export default {
           color: "#363636",
           primary: {
             name: "Discover",
-            url: "https://github.com/TrentD815/Foosball-Metrics"
+            url: "https://github.com/TrentD815/ServerSpy"
           }
         },
         images: [
@@ -95,17 +95,17 @@ export default {
       {
         src: "/logos/CSolsInc.png",
         url: "https://csolsinc.com",
-        alt: "CSols Inc."
+        alt: "CSols Inc. Logo"
       },
       {
         src: "/logos/Serrala.png",
         url: "https://www.serrala.com/",
-        alt: "Serrala"
+        alt: "Serrala Logo"
       },
       {
         src: "/logos/NeevData.png",
         url: "https://neevdata.com/",
-        alt: "Neev Data"
+        alt: "Neev Data Logo"
       }
   ]
   },

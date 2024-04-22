@@ -2,7 +2,7 @@ export default {
   author: "Trent Davis",
   hero: {
     subtitle: "Software Engineer at Neev Data",
-    description: ["Engineering robust software by day.", "Researching the latest memes by night."],
+    description: ["Engineering robust software by day.", "Cultivating creativity by night."],
     cta: "Browse Projects",
   },
   products: {
